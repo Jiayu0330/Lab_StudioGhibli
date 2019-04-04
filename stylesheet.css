@@ -1,14 +1,12 @@
 td, th{
-  padding: 7px 20px;
-}
-
-td{
-  text-align: center;
+  padding: 7px 30px;
+  border-bottom: 1px solid darkgrey;
+  text-align: left;
 }
 
 table{
-  margin-left: 21.5%;
-  background-color: white;
+  margin-left: 20%;
+  background-color: #F1F7ED;
   padding: 5px;
   border-collapse: collapse;
 }
@@ -28,6 +26,6 @@ body{
   word-spacing: 0.05em;
 }
 
-table, th, td {
-  border: 1px solid black;
+tr:hover{
+  background-color:#BDCACC;
 }
