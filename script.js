@@ -20,7 +20,7 @@ var tabulate = function(data, columns) {
         .data(columns)
         .enter()
         .append('th')
-        .text(function (column) { return column; });
+        .text(function (column) { return column.toUpperCase(); });
 
 		// create a row for each object in the data
 		var rows = tbody.selectAll('tr')
