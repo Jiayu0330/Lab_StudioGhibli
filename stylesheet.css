@@ -1,7 +1,11 @@
 td, th{
-  padding: 7px 30px;
+  padding: 7.2px 30px;
   border-bottom: 1px solid darkgrey;
   text-align: left;
+}
+
+th{
+  padding: 10px 30px;
 }
 
 table{
@@ -16,16 +20,31 @@ body{
 }
 
 .title{
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-family: Georgia, serif;
+  font-size: 23px;
   color: black;
   font-weight: bold;
-  word-spacing: 0.05em;
+  word-spacing: 0.2em;
 }
 
 tr:hover{
-  background-color:#BDCACC;
+  background-color: #BDCACC;
+}
+
+.dot:hover{
+  cursor: pointer;
+}
+
+.xAxis, .yAxis{
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  word-spacing: 0.1em;
+}
+
+.verticalLine{
+  stroke-dasharray: 5 5;
 }
