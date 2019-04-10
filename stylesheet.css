@@ -48,3 +48,9 @@ tr:hover{
 .verticalLine{
   stroke-dasharray: 5 5;
 }
+
+svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
